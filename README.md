@@ -8,8 +8,8 @@ Build a simple video browsing interface with:
 
 - A grid of video cards (mock data is fine)
 - Each card shows: thumbnail, title, duration, view count
+- Add a search/filter bar to filter videos by title (and author)
 - Click a card to open a modal/expanded view with a larger player area
-- Add a search/filter bar to filter videos by title
 
 ## Bonus additions if you have time:
 
@@ -27,6 +27,10 @@ const videos = [
 
 
 
+### TODOs
 
-
-
+- [ ] Filter items 
+- [ ] Display the player 
+on top , pushing the dashboard down , can still scroll, active video highlighted
+- [ ] Display a lot of items (virtualization - lazy loading)
+- [ ] Got items from store (network)
